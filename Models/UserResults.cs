@@ -1,6 +1,6 @@
 ﻿namespace RACEDAY_PART2_.Models
 {
-    public class Results
+    public class UserResults
     {
         //setters and getters 
         public int ResultId { get; set; }

@@ -9,7 +9,7 @@ namespace RACEDAY_PART2_.Data
         { }
 
         public DbSet<Users> users { get; set; }
-        public DbSet<Results> results { get; set; }
+        public DbSet<UserResults> results { get; set; }
         public DbSet<RaceRoutes> raceRoutes { get; set; }
         public DbSet<Events> events { get; set; }
         public DbSet<Entries> entries { get; set; }
