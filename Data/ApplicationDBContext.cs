@@ -13,7 +13,7 @@ namespace RACEDAY_PART2_.Data
         public DbSet<RaceRoutes> raceRoutes { get; set; }
         public DbSet<Events> events { get; set; }
         public DbSet<Entries> entries { get; set; }
-        public DbSet<Categories> categories { get; set; }
+        public DbSet<Category> categories { get; set; }
 
 
     }

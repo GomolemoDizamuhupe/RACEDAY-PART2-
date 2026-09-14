@@ -13,7 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
 {
     options.UseSqlServer(
-    builder.Configuration.GetConnectionString("DefaultConnection"));
+    builder.Configuration.GetConnectionString("Server=(localdb)\\MSSQLLocalDB;Database=RACEDAY;Trusted_Connection=True;MultipleActiveResultSets=true"));
 });
 
 var app = builder.Build();
